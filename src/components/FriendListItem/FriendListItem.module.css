@@ -1,0 +1,24 @@
+.status {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+}
+
+.status-true {
+  composes: status;
+  background-color: green;
+}
+
+.status-false {
+  composes: status;
+  background-color: red;
+}
+
+.avatar {
+  width: 30px;
+}
+
+.name {
+  color: rgb(4, 36, 25);
+}

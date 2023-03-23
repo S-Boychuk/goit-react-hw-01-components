@@ -1,0 +1,23 @@
+.transaction-history {
+  width: 100%;
+}
+
+thead {
+  background-color: rgb(4, 36, 25);
+}
+
+th {
+  color: rgb(224, 245, 226);
+}
+
+tr {
+  height: 45px;
+
+  text-align: center;
+  color: rgb(4, 36, 25);
+}
+
+tr:nth-child(2n) {
+  background-color: rgb(224, 245, 226);
+  color: rgb(4, 36, 25);
+}
